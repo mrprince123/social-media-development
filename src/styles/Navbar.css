@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    background-color: red;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* This is for the Logo Side */
+.leftSide{
+    background-color: green;
+}
+
+/* This is for the Right side */
+.rightSide{
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-item {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+/* This is for the Button side */
+.buttonSide{
+    display: flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonSide button {
+    padding: 10px;
+    margin: 10px;
+}
